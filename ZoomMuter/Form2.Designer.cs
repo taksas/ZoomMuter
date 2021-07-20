@@ -37,6 +37,7 @@ namespace ZoomMuter
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +45,7 @@ namespace ZoomMuter
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(60, 9);
+            this.label1.Location = new System.Drawing.Point(60, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(190, 45);
             this.label1.TabIndex = 0;
@@ -54,7 +55,7 @@ namespace ZoomMuter
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(9, 54);
+            this.label2.Location = new System.Drawing.Point(9, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(288, 21);
             this.label2.TabIndex = 1;
@@ -63,16 +64,16 @@ namespace ZoomMuter
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 130);
+            this.label3.Location = new System.Drawing.Point(53, 148);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(201, 15);
+            this.label3.Size = new System.Drawing.Size(193, 15);
             this.label3.TabIndex = 2;
-            this.label3.Text = "ヘルプについてはこちらを参照してください。";
+            this.label3.Text = "ヘルプについてはこちらを参照してください";
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(71, 145);
+            this.linkLabel1.Location = new System.Drawing.Point(71, 164);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(160, 15);
             this.linkLabel1.TabIndex = 3;
@@ -94,7 +95,7 @@ namespace ZoomMuter
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(104, 189);
+            this.linkLabel3.Location = new System.Drawing.Point(104, 198);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(100, 15);
             this.linkLabel3.TabIndex = 8;
@@ -108,26 +109,39 @@ namespace ZoomMuter
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(22, 105);
+            this.label5.Location = new System.Drawing.Point(46, 110);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(264, 17);
+            this.label5.Size = new System.Drawing.Size(217, 34);
             this.label5.TabIndex = 9;
-            this.label5.Text = "アプリの使用前に、ヘルプを必ず参照してください。";
+            this.label5.Text = "アプリの使用前に、必ずヘルプを参照して\r\n　　 初期セットアップをしてください";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(77, 175);
+            this.label7.Location = new System.Drawing.Point(77, 184);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(154, 15);
             this.label7.TabIndex = 11;
             this.label7.Text = "アプリのアップデート情報はこちら";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4.Location = new System.Drawing.Point(7, 69);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(297, 39);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "　 ホストからの強制ミュート、Zoomアプリからの手動操作などの\r\n　　　　このアプリ以外からのミュート操作があった場合は\r\n再度ミュート表示を同期させてください" +
+    "（同期方法はヘルプを参照）\r\n";
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(302, 225);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.linkLabel3);
@@ -156,5 +170,6 @@ namespace ZoomMuter
         private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label4;
     }
 }
