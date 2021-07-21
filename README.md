@@ -24,12 +24,15 @@ Zoomはマイク、カメラのミュート状態を他アプリが取得する�
 ZoomMuterの圧縮ファイルを解凍し、「ZoomMuter」又は「ZoomMuter.exe」をダブルクリックします。
 
 <h2>.NET Coreのインストール</h2>
+
 ![netCoreダイアログ](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/netcore_dialog.png)
+
 初回起動時はエラーメッセージが表示されますが、これはPC内にZoomMuterの実行に必要なソフトウェアフレームワークがインストールされていない為です。
 <br>
 「はい」をクリックしてください。
 
 ![netCoreダイアログ](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/netcore_web.png)
+
 ZoomMuterの起動に必要な「Microsoft .NET Core」のダウンロードページがブラウザで開きます。
 <br>
 「Run desktop apps」の「Download x64」をクリックすることで、フレームワークのダウンロードが行われます。
