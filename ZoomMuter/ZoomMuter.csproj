@@ -6,6 +6,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <Authors>Taksas</Authors>
     <RepositoryUrl>https://github.com/taksas/ZoomMuter</RepositoryUrl>
+    <ApplicationIcon>icon_ZoomMuter.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
