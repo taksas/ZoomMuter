@@ -2,6 +2,7 @@
 <h2>ビデオ会議のための音声＆カメラミュートツール</h2>
 
 ![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted2.png) ![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted4.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted3.png)
+<br>
 ZoomMuterはZoom会議におけるマイク＆カメラコントロールを簡便化するために開発しました。
 それぞれのミュート状態を分かりやすく表示し、（例えZoomのウインドウが最小化されていようと）ワンタップでミュート＆ミュート解除操作が可能です。
 <br>
