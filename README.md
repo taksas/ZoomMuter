@@ -8,7 +8,7 @@ ZoomMuterはZoom会議におけるマイク＆カメラコントロールを簡�
 Zoomはマイク、カメラのミュート状態を他アプリが取得するための機能を用意していません。その為、このアプリを使用するときはいくつかの注意点に留意してください。
 <br>
 <br>
-・使用前に、このアプリとZoomのミュート表示を同期させること
+・ZoomMuterとZoomを起動するたび、ミュート表示を同期させること
 <br>
 ・ホストからの強制ミュートなど、このアプリ以外からのミュート操作があった場合、再度ミュート表示を同期させること
 <br>
@@ -21,6 +21,24 @@ Zoomはマイク、カメラのミュート状態を他アプリが取得する�
 [GitHhb上でリリースを見る](https://github.com/taksas/ZoomMuter/tags)
 
 <h1>初期セットアップ</h1>
+ZoomMuterの圧縮ファイルを解凍し、「ZoomMuter」又は「ZoomMuter.exe」をダブルクリックします。
+
+<h2>.NET Coreのインストール</h2>
+![netCoreダイアログ](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/netcore_dialog.png)
+初回起動時はエラーメッセージが表示されますが、これはPC内にZoomMuterの実行に必要なソフトウェアフレームワークがインストールされていない為です。
+<br>
+「はい」をクリックしてください。
+
+![netCoreダイアログ](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/netcore_web.png)
+ZoomMuterの起動に必要な「Microsoft .NET Core」のダウンロードページがブラウザで開きます。
+<br>
+「Run desktop apps」の「Download x64」をクリックすることで、フレームワークのダウンロードが行われます。
+<br>
+フレームワークのインストール後、「ZoomMuter」又は「ZoomMuter.exe」を再度ダブルクリックしてください。
+<br>
+ZoomMuterが正常に起動します。
+
+<h2>Zoom側の設定</h2>
 ZoomMuterの使用前に、Zoomアプリケーションでショートカットキーの設定が必要です。
 <br>
 
