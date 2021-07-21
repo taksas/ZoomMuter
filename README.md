@@ -34,6 +34,7 @@ ZoomMuterの使用前に、Zoomアプリケーションでショートカット�
 この設定はZoomをインストールしているPC間で同期されません。複数のPCでZoomMuterを使用したい場合はそれぞれのPC上で初期セットアップが必要です。
 
 <h1>ZoomMuterとZoomのミュート表示を同期させる</h1>
+
 ZoomMuterからミュート操作をしたときは、ミュートの状態表示がZoomMuterとZoom間で同期されます。
 <br>
 しかし、Zoomからミュート操作をしたときは**ミュートの状態表示はZoomMuterとZoom間で同期されません。**
