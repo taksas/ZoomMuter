@@ -1,7 +1,7 @@
 # ZoomMuter
 <h2>ビデオ会議のための音声＆カメラミュートツール</h2>
 
-![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted2.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted3.png)
+![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted2.png) ![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted4.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted3.png)
 ZoomMuterはZoom会議におけるマイク＆カメラコントロールを簡便化するために開発しました。
 それぞれのミュート状態を分かりやすく表示し、（例えZoomのウインドウが最小化されていようと）ワンタップでミュート＆ミュート解除操作が可能です。
 <br>
@@ -12,7 +12,7 @@ Zoomはマイク、カメラのミュート状態を他アプリが取得する�
 <br>
 ・ホストからの強制ミュートなど、このアプリ以外からのミュート操作があった場合、再度ミュート表示を同期させること
 <br>
-・**初期設セットアップなしではこのアプリは全く動かないこと**
+・**初期セットアップなしではこのアプリは全く動かないこと**
 <br>
 ・Zoomのアップデートによってこのアプリが動かなくなる可能性があるということ
 <h1>ダウンロード</h1>
@@ -32,3 +32,18 @@ ZoomMuterの使用前に、Zoomアプリケーションでショートカット�
 <br>
 <br>
 この設定はZoomをインストールしているPC間で同期されません。複数のPCでZoomMuterを使用したい場合はそれぞれのPC上で初期セットアップが必要です。
+
+<h1>ZoomMuterとZoomのミュート表示を同期させる</h1>
+ZoomMuterからミュート操作をしたときは、ミュートの状態表示がZoomMuterとZoom間で同期されます。
+<br>
+しかし、Zoomからミュート操作をしたときは**ミュートの状態表示はZoomMuterとZoom間で同期されません。**
+<br>
+そのため、Zoom上ではマイクがミュート表示になっているが、ZoomMuter上ではそうではないという現象がよく起こります。
+<br>
+**これはZoom側からミュート操作をした場合は必ず起こる現象です。**
+<br>
+ZoomMuter使用中はZoomからミュート操作をしないでください。
+<br>
+**もしZoomMuterとZoomのミュート表示がずれている場合は、Zoomからミュート操作をしてZoomMuterの画面表示に合わせてください。**
+
+![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/OK.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/NG.png)
