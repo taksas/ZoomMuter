@@ -21,7 +21,9 @@ Zoomはマイク、カメラのミュート状態を他アプリが取得する�
 <h1>初期セットアップ</h1>
 ZoomMuterの使用前に、Zoomアプリケーションでショートカットキーの設定が必要です。
 <br>
-![Zoomの設定ウインドウ](https://notepm.jp/assets/img/apple-touch-icon-120x120.png)
+
+![Zoomの設定ウインドウ](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomInitialize.png)
+<br>
 [設定]→[キーボードショートカット]から、「自分のオーディオをミュート/ミュート解除」の項目を見つけ出し、そのショートカットを「ALT+A」から「F1」へと変更してください。
 <br>
 同様にして、「ビデオを開始/停止」を「ALT+V」から「F2」へと変更してください。
