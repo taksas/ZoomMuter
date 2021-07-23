@@ -113,6 +113,16 @@ namespace ZoomMuter.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap icon_ZoomMuterPNG {
+            get {
+                object obj = ResourceManager.GetObject("icon_ZoomMuterPNG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap 無題_3toukazumi {
             get {
                 object obj = ResourceManager.GetObject("無題-3toukazumi", resourceCulture);

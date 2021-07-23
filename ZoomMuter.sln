@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoomMuter", "ZoomMuter\ZoomMuter.csproj", "{E1AC3541-BECC-4542-950B-AD82D431448E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZoomMuter", "ZoomMuter\ZoomMuter.csproj", "{E1AC3541-BECC-4542-950B-AD82D431448E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZoomMuter_BootStrapper", "ZoomMuter_BootStrapper\ZoomMuter_BootStrapper\ZoomMuter_BootStrapper.csproj", "{EFFF7756-40AB-4C8D-947A-49AA77B5F85B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZoomMuter_MeetingDetector", "ZoomMuter_MeetingDetector\ZoomMuter_MeetingDetector\ZoomMuter_MeetingDetector.csproj", "{F70D3778-B196-434F-9B86-B81B2A0B94D7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ZoomMuterInstaller", "ZoomMuterInstaller\ZoomMuterInstaller.vdproj", "{5D8EBF8D-654D-4736-9D62-FFF50D94E569}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,16 @@ Global
 		{E1AC3541-BECC-4542-950B-AD82D431448E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1AC3541-BECC-4542-950B-AD82D431448E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1AC3541-BECC-4542-950B-AD82D431448E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFF7756-40AB-4C8D-947A-49AA77B5F85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFF7756-40AB-4C8D-947A-49AA77B5F85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFF7756-40AB-4C8D-947A-49AA77B5F85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFF7756-40AB-4C8D-947A-49AA77B5F85B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70D3778-B196-434F-9B86-B81B2A0B94D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70D3778-B196-434F-9B86-B81B2A0B94D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70D3778-B196-434F-9B86-B81B2A0B94D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70D3778-B196-434F-9B86-B81B2A0B94D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8EBF8D-654D-4736-9D62-FFF50D94E569}.Debug|Any CPU.ActiveCfg = Debug
+		{5D8EBF8D-654D-4736-9D62-FFF50D94E569}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

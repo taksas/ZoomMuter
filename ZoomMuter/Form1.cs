@@ -18,6 +18,7 @@ namespace ZoomMuter
 
     public partial class Form1 : Form
     {
+        public Form1 f1 = null;
         public int m;
         public int n;
         public int o;
@@ -27,12 +28,13 @@ namespace ZoomMuter
             InitializeComponent();
             this.TopMost = !this.TopMost;
 
-        }
+    }
 
         private static ushort WM_SYSKEYDOWN = 0x0104;
         private static ushort WM_SYSKEYUP = 0x0105;
         private static ushort VK_F1 = 0x70;
         private static ushort VK_F2 = 0x71;
+        private static ushort VK_MENU = 0x12;
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -46,8 +48,9 @@ namespace ZoomMuter
             if (m == 0)
 
             {
-                PostMessage(hwnd, WM_SYSKEYDOWN, VK_F1, 0);
-                PostMessage(hwnd, WM_SYSKEYUP, VK_F1, 0);
+                  PostMessage(hwnd, WM_SYSKEYDOWN, VK_F1, 0);
+                  PostMessage(hwnd, WM_SYSKEYUP, VK_F1, 0);
+
                 button1.BackColor = Color.Red;
                 button1.Text = "ミュート解除中";
                 button1.BackgroundImage = Properties.Resources.icon_124380_256;
@@ -55,8 +58,9 @@ namespace ZoomMuter
             }
             else
             {
-                PostMessage(hwnd, WM_SYSKEYDOWN, VK_F1, 0);
-                PostMessage(hwnd, WM_SYSKEYUP, VK_F1, 0);
+                  PostMessage(hwnd, WM_SYSKEYDOWN, VK_F1, 0);
+                  PostMessage(hwnd, WM_SYSKEYUP, VK_F1, 0);
+
                 button1.BackColor = Color.DarkTurquoise;
                 button1.Text = "ミュート中";
                 button1.BackgroundImage = Properties.Resources.icon_124380_256_x;
@@ -67,6 +71,7 @@ namespace ZoomMuter
 
 
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
