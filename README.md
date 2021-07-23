@@ -4,10 +4,15 @@
 ![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted2.png) ![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted4.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/ZoomMuterMuted3.png)
 <br>
 ZoomMuterはZoom会議におけるマイク＆カメラコントロールを簡便化するために開発しました。
+<br>
 それぞれのミュート状態を分かりやすく表示し、（例えZoomのウインドウが最小化されていようと）ワンタップでミュート＆ミュート解除操作が可能です。
 <br>
-Zoomはマイク、カメラのミュート状態を他アプリが取得するための機能を用意していません。その為、このアプリを使用するときに注意しなければならない事柄がいくつかあります。
+**PCの起動時に一緒に起動**し、あなたがZoomで会議を始めるのをタスクバーで見守ります。
 <br>
+Zoomで会議が始まると勝手にポップアップし、会議が終わるとタスクバーに帰っていくお利口さん仕様になっています。
+<br>
+<br>
+Zoomはマイク、カメラのミュート状態を他アプリが取得するための機能を用意していません。その為、このアプリを使用するときに注意しなければならない事柄がいくつかあります。
 <br>
 ・ZoomMuterとZoomを起動するたび、ミュート表示を同期させる必要があるということ
 <br>
@@ -21,8 +26,30 @@ Zoomはマイク、カメラのミュート状態を他アプリが取得する�
 
 [GitHhb上でリリースを見る](https://github.com/taksas/ZoomMuter/tags)
 
+<h1>ZoomMuterとZoomのミュート表示を同期させる</h1>
+
+ZoomMuterからミュート操作をしたときは、ミュートの状態表示がZoomMuterとZoom間で同期されます。
+<br>
+しかし、Zoomからミュート操作をしたときは**ミュートの状態表示はZoomMuterとZoom間で同期されません。**
+<br>
+そのため、Zoom上ではマイクがミュート表示になっているが、ZoomMuter上ではそうではないという現象がよく起こります。
+<br>
+**これはZoom側からミュート操作をした場合は必ず起こる現象です。**
+<br>
+ZoomMuter使用中はZoomからミュート操作をしないでください。
+<br>
+**もしZoomMuterとZoomのミュート表示がずれている場合は、Zoomからミュート操作をしてZoomMuterの画面表示に合わせてください。**
+
+![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/OK.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/NG.png)
+
 <h1>初期セットアップ</h1>
-ZoomMuterの圧縮ファイルを解凍し、「ZoomMuter」又は「ZoomMuter.exe」をダブルクリックします。
+ダウンロードした「ZoomMuterInstaller.msi」をダブルクリックして実行し、画面の指示に従ってインストールしてください。
+<br>
+インストール完了後、Windowsのスタートメニュー（アプリ一覧）から「ZoomMuter」をクリックしてください。
+<br>
+画面上には何も表示されませんが、きちんと起動しています。
+<br>
+画面右下のタスクバーにZoomMuterのアイコンが存在しているはずです。
 
 <h2>.NET Coreのインストール</h2>
 
@@ -55,18 +82,3 @@ ZoomMuterの使用前に、Zoomアプリケーションでショートカット�
 <br>
 この設定はZoomをインストールしているPC間で同期されません。複数のPCでZoomMuterを使用したい場合はそれぞれのPC上で初期セットアップが必要です。
 
-<h1>ZoomMuterとZoomのミュート表示を同期させる</h1>
-
-ZoomMuterからミュート操作をしたときは、ミュートの状態表示がZoomMuterとZoom間で同期されます。
-<br>
-しかし、Zoomからミュート操作をしたときは**ミュートの状態表示はZoomMuterとZoom間で同期されません。**
-<br>
-そのため、Zoom上ではマイクがミュート表示になっているが、ZoomMuter上ではそうではないという現象がよく起こります。
-<br>
-**これはZoom側からミュート操作をした場合は必ず起こる現象です。**
-<br>
-ZoomMuter使用中はZoomからミュート操作をしないでください。
-<br>
-**もしZoomMuterとZoomのミュート表示がずれている場合は、Zoomからミュート操作をしてZoomMuterの画面表示に合わせてください。**
-
-![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/OK.png)　![ZoomMuter](https://raw.githubusercontent.com/taksas/ZoomMuter/master/HelpResources/NG.png)
